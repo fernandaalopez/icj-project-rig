@@ -1,0 +1,22 @@
+{% extends '_templates/base.njk' %}
+
+{% set relative_path = "../" %}
+
+{% block page_title %}{{ Brand }}{% endblock %}
+
+{% block page_description %}{{ Brand }} by {{ Designer }}{% endblock %}
+
+{% block content %}
+  <article class="container">
+    <div class="row">
+      <div class="col-sm-4">
+          <img src="../img/{{ Image }}" alt="Photo of {{ Name }}" class="img-fluid mb-4">
+      </div>
+      <div class="col-sm-8">
+          <h1>{{ Brand }}</h1>
+          <p>Designed by {{ Designer }}</p>
+          <p>{{ story }}</p>
+      </div>
+    </div>
+  </article>
+{% endblock %}

@@ -6,25 +6,19 @@
 
 {% block content %}
 <div class="container">
-  <h1>Revolutionary Fashion: Spring/Summer 2001</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
+  <h1 style="color:#8b0000; text-align:center;font-size:3em;font-weight:bold">Revolutionary Fashion: Spring/Summer 2001</h1>
+  <p></p>
+  <p>The Spring/Summer 2001 season marked a revolutionary moment in fashion, redefining creativity and challenging conventions with collections that remain timeless and irresistibly compelling. Chloé embodied effortless femininity, introducing playful yet elegant designs that felt both modern and nostalgic, a duality that continues to captivate. Miguel Adrover, the industry's avant-garde maverick, wove social commentary into his work, blending absurdity with deep storytelling to create collections that felt simultaneously disruptive and beautiful. Moschino, delighted with its signature humor and bold irreverence, proved that high fashion could be both cheeky and chic. Together, these collections embody a timeless charm with a subtle absurdity, reflecting the era's ability to balance innovation with a sense of humor and soul.</p>
+  <h2 style="color:#8b0000; font-size:2em; font-weight:bold">Collections</h2>
+  <p></p>
   <div class="row">
-    {% for book in library.books %}
+    {% for fashion in designers.fashion %}
       <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+        <img src="img/{{ fashion.Image }}" width=400 height=500 alt="Photo of {{fashion.Name}}" class="img-fluid">
+        <h3><a href="designers/{{ fashion.slug }}.html">{{ fashion.Brand }}</a></h3>
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
+ 
 </div>
 {% endblock %}

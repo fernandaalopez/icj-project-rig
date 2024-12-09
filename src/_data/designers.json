@@ -1,0 +1,28 @@
+{
+  "fashion": [
+    {
+      "Brand": "Chloé",
+      "Collection": "SS 2001",
+      "Designer": "Stella McCartney",
+      "slug": "chloe",
+      "Image": "chloe.jpg",
+      "story": "Chloé’s Spring/Summer 2001 collection captured a sense of effortless sophistication, blending romantic femininity with a youthful, carefree spirit. Flowing fabrics, soft palettes, and playful, breezy designs made this collection a timeless representation of chic minimalism. The subtle flirtation with retro influences gave it an enduring appeal, bridging past and future with an understated absurdity that felt delightfully modern."
+    },
+    {
+      "Brand": "Miguel Adrover",
+      "Collection": "SS 2001",
+      "Designer": "Miguel Adrover",
+      "slug": "miguel-adrover",
+      "Image": "miguel-adrover.jpg",
+      "story": "Miguel Adrover’s Spring/Summer 2001 collection was a daring narrative that pushed the boundaries of traditional fashion. Drawing inspiration from thrifted pieces and global culture, Adrover crafted garments that blended the absurd and the profound. The deconstruction of classic designs and their reinterpretation into unexpected forms challenged societal norms and fashion's elite. His work from this season stands as a testament to his genius—complex, provocative, and timelessly ahead of its time."
+    },
+    {
+      "Brand": "Moschino",
+      "Collection": "SS 2001",
+      "Designer": "Rossella Jardini",
+      "slug": "moschino",
+      "Image": "moschino.jpg",
+      "story": "Moschino’s Spring/Summer 2001 collection exuded whimsical charm, embracing the absurdity of fashion with tongue-in-cheek designs that were as witty as they were wearable. Playful details like exaggerated silhouettes and cheeky prints nodded to Moschino's ethos of making high fashion fun. This collection felt like a celebration of individuality, reminding us that fashion is not just an art form but also a joyful rebellion against conformity."
+    }
+  ]
+}
